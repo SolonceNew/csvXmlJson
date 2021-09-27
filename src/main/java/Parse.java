@@ -41,7 +41,6 @@ public class Parse {
     // parse xml
     protected List<Employee> parseXML(String fileName) throws ParserConfigurationException, IOException, SAXException {
         List<Employee> listEmployees = new ArrayList<>();
-        List<String> value = new ArrayList();
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
         Document document = builder.parse(new File(fileName));
