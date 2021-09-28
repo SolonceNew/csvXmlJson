@@ -75,7 +75,7 @@ public class Main {
         Element employee2 = document.createElement("employee");
         root.appendChild(employee2);
         Element id2 = document.createElement("id");
-        id.appendChild(document.createTextNode("2"));
+        id2.appendChild(document.createTextNode("2"));
         employee2.appendChild(id2);
         Element firstName2 = document.createElement("firstName");
         firstName2.appendChild(document.createTextNode("Inav"));
